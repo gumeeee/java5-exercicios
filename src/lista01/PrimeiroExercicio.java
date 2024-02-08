@@ -17,6 +17,8 @@ public class PrimeiroExercicio {
 		System.out.println("Digite o valor de C: ");
 		c = leitura.nextInt();
 		
+		leitura.close();
+		
 		if (a + b > c) {
 			System.out.println("A soma de A + B é maior do que C");
 		} else if (a + b < c) {
